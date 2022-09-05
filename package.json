@@ -9,12 +9,12 @@
   "scripts": {
     "build": "turbo run build",
     "build:doc": "turbo run build --filter=documentation",
-    "publish:major": "turbo run publish:major --filter=@ts-v/*",
-    "publish:minor": "turbo run publish:minor --filter=@ts-v/*",
-    "publish:patch": "turbo run publish:patch --filter=@ts-v/*",
+    "publish:major": "turbo run publish:major --filter=@remix-routes/*",
+    "publish:minor": "turbo run publish:minor --filter=@remix-routes/*",
+    "publish:patch": "turbo run publish:patch --filter=@remix-routes/*",
     "dev:doc": "turbo run dev --filter=documentation",
     "dev": "turbo run dev --filter=remix-app",
-    "test": "turbo run build --filter=@ts-v/* && jest",
+    "test": "turbo run build --filter=@remix-routes/* && jest",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
